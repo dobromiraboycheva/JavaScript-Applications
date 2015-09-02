@@ -16,8 +16,11 @@ function solve() {
                 $('#guess-input').val('');
                 var result = guess(guessNumber);
                 if (result.rems === 4) {
-                    saveBestScore(playerName, callNumber);
+                    $('#results').append($('<li />').text('Your number: ' + number + 'is correct congratulations'));
+                    console.log('You win');
                     endCallback();
+                    saveBestScore(playerName, callNumber);
+                   
                 }
             }
         });
