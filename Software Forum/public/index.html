@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Software forum</title>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+</head>
+<body style="width: 1200px; margin: 10px">
+<header style="background:darkseagreen">
+    <div id="header" class="row">
+        <div id="title" class="col-md-4">
+            <h1><a style="margin-left: 20px" href="#/">Software forum</a></h1>
+        </div>
+        <div id="login-container" style="margin: 25px; float:right" class="col-md-4">
+            <a id="login" class="btn btn-info" href="#/login">Login</a>
+            <a id="register" class="btn btn-warning" href="#/register">Registation</a>
+            <button id="button-logout" class="btn btn-danger">Logout</button>
+        </div>
+    </div>
+    <nav class="navbar navbar-default">
+        <ul class="nav nav-pills">
+            <li>
+                <a href="#/">Home</a>
+            </li>
+            <li>
+                <a href="#/threads">Threads</a>
+            </li>
+            <li>
+                <a href="#/thread-add">Add threads</a>
+            </li>
+            <li>
+                <a href="#/users">Users</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+<div id="content" tyle="color: darkseagreen"></div>
+
+<footer style="background:darkseagreen; height: 40px; margin-top:650px">
+    <div style="float: right; margin:10px">design by Dobromira Boycheva</div>
+</footer>
+
+<script src="bower_components/jquery/dist/jquery.js"></script>
+<script src="bower_components/sammy/lib/sammy.js"></script>
+<script src="bower_components/handlebars/handlebars.js"></script>
+<script src="bower_components/sha256/index.js"></script>
+<script src="bower_components/moment/min/moment.min.js"></script>
+
+<script src="scripts/data.js"></script>
+<script src="scripts/templates.js"></script>
+<script src="scripts/forumChanges.js"></script>
+
+</body>
+</html>

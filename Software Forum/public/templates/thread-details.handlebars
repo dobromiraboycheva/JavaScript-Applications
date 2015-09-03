@@ -1,0 +1,12 @@
+<h1>{{title}}</h1>
+<a href="#/threads/{{id}}/messages/add" class="btn btn-warning ">Add new message</a>
+<br/><br/>
+{{#if this}}
+    {{#each messages}}
+        <p>{{text}}</p>
+       <strong>created by</strong> <a href="#/users">{{user.username}}</a> <br/><br/>
+    {{/each}}
+{{else}}
+    <h2>No massages</h2>
+{{/if}}
+</div>

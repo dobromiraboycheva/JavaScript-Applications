@@ -1,0 +1,15 @@
+<div class="row">
+    <h1 class="col-md-7" style="color: darkgreen; margin-left: 20px">Users</h1>
+</div>
+<div style="margin-left: 40px">
+    {{#if this}}
+        {{#each this}}
+            <h2 style="color: green">Username: {{username}}  <br/>
+                Id:{{id}}</h2>
+            <br/>
+            <br/>
+        {{/each}}
+    {{else}}
+        <h2>No users</h2>
+    {{/if}}
+</div>
