@@ -1,0 +1,103 @@
+{
+  "users": [
+    {
+      "username": "Doncho",
+      "passHash": "4cb5ba2355368d4dfd14c9eee9a134791f7001cb",
+      "usernameLower": "doncho",
+      "authKey": "undefined+tusvd@Kh_@ixbA*Q$fvLmq(CJJmu*DN%E^i@OUr&eoAJn!*uak",
+      "id": "d69707b4-d06d-42ac-bc10-1dde5aaafcf7",
+      "events": [
+        {
+          "id": 449037,
+          "title": "Test",
+          "category": "Work",
+          "description": "",
+          "date": "2015-09-08T23:00:00.000Z",
+          "creatorId": "d69707b4-d06d-42ac-bc10-1dde5aaafcf7",
+          "users": [
+            "d69707b4-d06d-42ac-bc10-1dde5aaafcf7",
+            "d69707b4-d06d-42ac-bc10-1dde5aaafcf7"
+          ]
+        },
+        {
+          "id": 449037,
+          "title": "Test",
+          "category": "Work",
+          "description": "",
+          "date": "2015-09-08T23:00:00.000Z",
+          "creatorId": "d69707b4-d06d-42ac-bc10-1dde5aaafcf7",
+          "users": [
+            "d69707b4-d06d-42ac-bc10-1dde5aaafcf7",
+            "d69707b4-d06d-42ac-bc10-1dde5aaafcf7"
+          ]
+        },
+        {
+          "id": 792579,
+          "title": "Test",
+          "category": "Free time",
+          "description": "",
+          "date": "2015-09-17T23:00:00.000Z",
+          "creatorId": "d69707b4-d06d-42ac-bc10-1dde5aaafcf7",
+          "users": [
+            "d69707b4-d06d-42ac-bc10-1dde5aaafcf7"
+          ]
+        }
+      ],
+      "todos": [
+        {
+          "id": 27882,
+          "text": "qwe",
+          "state": true,
+          "category": "Home"
+        },
+        {
+          "id": 365117,
+          "text": "NEW TODO",
+          "state": false,
+          "category": "Home"
+        }
+      ]
+    },
+    {
+      "username": "didi",
+      "passHash": "e7f2f616ce8817ad893bbeaad3e942e94c69d323",
+      "usernameLower": "didi",
+      "authKey": "undefinedaiFPMgUMSioblPGp(D-Sa(HfHgY-iZjkfaszLswMRc$dafw+czV",
+      "id": "b3ed9b3a-54d6-42c1-ac14-3b3ddd0b6c9c",
+      "todos": [
+        {
+          "id": 258685,
+          "text": "Exam JS Apps",
+          "state": false,
+          "category": "Telerik Academy"
+        },
+        {
+          "id": 681610,
+          "text": "travel to haskovo",
+          "state": true,
+          "category": "travel"
+        }
+      ],
+      "events": [
+        {
+          "id": 672746,
+          "title": "Exam JS Apps",
+          "category": "Exams",
+          "description": "Exam JS Applications",
+          "date": "2015-09-10T07:00:00.000Z",
+          "creatorId": "b3ed9b3a-54d6-42c1-ac14-3b3ddd0b6c9c",
+          "users": [
+            "b3ed9b3a-54d6-42c1-ac14-3b3ddd0b6c9c"
+          ]
+        }
+      ]
+    },
+    {
+      "username": "didid",
+      "passHash": "e7f2f616ce8817ad893bbeaad3e942e94c69d323",
+      "usernameLower": "didid",
+      "authKey": "undefined!Ro@CpaTLyEMJo$+wJsjqKTDq-%utp@I^N_VrfGCYpOHfTrMaB#",
+      "id": "f7b6ff43-613d-44b4-a862-e037b362975c"
+    }
+  ]
+}

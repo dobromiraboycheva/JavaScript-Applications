@@ -1,0 +1,21 @@
+<h2>TODOs<h2>
+    <a class="btn btn-info" href="#/todos/add">Add new TODO</a>
+{{#if this}}
+    {{#each this}}
+        <h3>{{category}}</h3>
+        {{#each item}}
+            <div class="todo-box" data-id="{{id}}">
+                <lable class="checkbox">
+                {{#if state}}
+                    <input type="checkbox" checked/>
+                {{else}}
+                    <input type="checkbox"/>
+                {{/if}}
+                <strong>{{text}}</strong>
+                </lable>
+                </div>
+        {{/each}}
+    {{/each}}
+{{else}}
+<h3>No TODOs</h3>
+{{/if}}

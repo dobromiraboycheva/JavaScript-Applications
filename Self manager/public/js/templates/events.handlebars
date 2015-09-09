@@ -1,0 +1,18 @@
+<h2>EVENTs<h2>
+    <a class="btn btn-info" href="#/events/add">Add new EVENT</a>
+{{#if this}}
+    {{#each this}}
+        <h3><{{category}}</h3>
+        {{#each item}}
+                <div class="event-box" data-id="{{id}}">
+                    <lable >
+                        <strong>{{title}}</strong><br/>
+                    </lable>
+                    <span>{{date}}</span><br/>
+                    <p>{{description}}</p><br/>
+                </div>
+        {{/each}}
+    {{/each}}
+{{else}}
+        <h3>No EVENTs</h3>
+{{/if}}
